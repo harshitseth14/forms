@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Harshit</title>
-    </head>
+<meta charset="utf-8">
+<head>
+    <title>
+        Forms
+    </title>
     <body>
-        <h1>Harshit Seth</h1>
-        <p><em><strong>Aspiring full stack developer</strong></em></p>
-        <p>I am a student in MIT</p>
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>St. Mary's School</li>
-        </ul>
-        <p><a href="hobbies.html">My Hobbies</a></p>
-        <hr>
-        <table>
-            <tr>
-                <td>2020-2021</td>
-                <td>Lockdown</td>
-            </tr>
-            <tr>
-                    <td>2022</td>
-                    <td>Lockdown again</td>
-                </tr>
-        </table>
-
+        <form action="mailto:harshitseth987@gmail.com" method="post" enctype="text/plain">
+            <label> Your name:</label>
+            <input type="text" name="name">
+            <br><input type="color">
+            <br>
+            <label> Do you want to sign up for the email list?</label>
+            <input type="checkbox" name="checkbox for email list">
+            <br>
+            <label>Password:</label>
+            <input type="password" minlength="8" maxlength="16" name="password">
+            <br>
+            <input type="file" name="file"><br>
+            <input type="date" name="date"><br>
+            <input type="ratio" name="ratio"><br>
+            <input type="range" name="range"><br>
+            <input type="checkbox" name="random check box"><br>
+            <input type="email"><br>
+            <label>Your Message: </label>
+            <br>
+            <textarea name="message" rows="9" cols="90"></textarea>
+            <br><input type="submit">
+        </form>
     </body>
-</html>
+</head>
